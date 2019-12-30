@@ -11,7 +11,7 @@ Departments
 
 Employees
 
-Job_History
+JobHistory
 
 Jobs
 
