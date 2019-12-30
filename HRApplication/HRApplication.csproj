@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191229171147_HRApplicationV.cs" />
+    <Compile Remove="Migrations\20191229171147_HRApplicationV.Designer.cs" />
+    <Compile Remove="Migrations\20191229171313_HRApplication.cs" />
+    <Compile Remove="Migrations\20191229171313_HRApplication.Designer.cs" />
+    <Compile Remove="Migrations\20191229172611_HRApplication.cs" />
+    <Compile Remove="Migrations\20191229172611_HRApplication.Designer.cs" />
+    <Compile Remove="Migrations\20191229172748_HRApplication.cs" />
+    <Compile Remove="Migrations\20191229172748_HRApplication.Designer.cs" />
+    <Compile Remove="Migrations\20191229173427_HRApplication.cs" />
+    <Compile Remove="Migrations\20191229173427_HRApplication.Designer.cs" />
+    <Compile Remove="Migrations\20191229180158_HRApplication.cs" />
+    <Compile Remove="Migrations\20191229180158_HRApplication.Designer.cs" />
+    <Compile Remove="Migrations\20191229180514_HRApplication.cs" />
+    <Compile Remove="Migrations\20191229180514_HRApplication.Designer.cs" />
+    <Compile Remove="Migrations\20191229181314_HRApplication.cs" />
+    <Compile Remove="Migrations\20191229181314_HRApplication.Designer.cs" />
+    <Compile Remove="Migrations\20191229184505_HRApplication.cs" />
+    <Compile Remove="Migrations\20191229184505_HRApplication.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\data\" />
+  </ItemGroup>
+
+</Project>
